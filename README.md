@@ -3,6 +3,9 @@ Arrowos custom ROM for Redmi Note 10 Pro
 
 Arrowos [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Redmi Note 10 Pro(code name sweet)
 
+[Features as video](https://www.youtube.com/watch?v=3WMCBRGjhr0)
+
+Estimated installation no.: 100
 
 How to use this repository
 -------------------
