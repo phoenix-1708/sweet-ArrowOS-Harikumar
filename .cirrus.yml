@@ -1,0 +1,19 @@
+env:
+    USE_CCACHE: 1
+    CIRRUS_WORKING_DIR: /tmp/ci
+    CIRRUS_CLONE_DEPTH: 1
+
+task:
+    name: pixelexp
+    timeout_in: 120m
+    container:
+      image: apon77/aosp:latest
+      cpu: 8
+      memory: 32G  
+    build_script:
+      - git config --global user.name "phoenix-1708"
+      - git config --global user.email "harikumar1708@gmail.com"
+      - git config --global color.ui true
+      - sudo apt-get update -y
+      - sudo apt-get upgrade -y
+      - bash build_rom.sh
